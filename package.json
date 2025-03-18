@@ -42,21 +42,17 @@
   },
   "homepage": "https://github.com/tmigone/pulseaudio#readme",
   "engines": {
-    "node": ">=10.0.0 <17.0.0"
+    "node": ">=22.0.0"
   },
   "devDependencies": {
-    "@types/node": "^14.0.13",
-    "ava": "^3.8.2",
-    "dotenv": "^11.0.0",
+    "@types/node": "^22.13.10",
+    "ava": "^6.2.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.2.0",
-    "nodemon": "^2.0.4",
     "nyc": "^15.1.0",
-    "ts-node": "^8.10.2",
-    "ts-standard": "^11.0.0",
-    "typedoc": "^0.22.11",
-    "typedoc-plugin-no-inherit": "^1.3.1",
-    "typescript": "^4.0.0"
+    "typedoc": "^0.27.9",
+    "typedoc-plugin-no-inherit": "^1.5.0",
+    "typescript": "^5.8.2"
   },
   "files": [
     "build/*",
@@ -66,5 +62,9 @@
   ],
   "versionist": {
     "publishedAt": "2022-08-25T21:03:42.439Z"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9"
   }
 }
